@@ -29,12 +29,13 @@ Está sob a égide da **licença**:
 
 # 
  - **Instalação pelo ArchLinux**
- 
-    sudo pacman -S espeak-ng orca onboard
-    
-    sudo pacman -U mbrola-3.0.1h-5-x86_64.pkg.tar.xz
-    sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
-
+```
+sudo pacman -S espeak-ng orca onboard
+```
+```
+sudo pacman -U mbrola-3.0.1h-5-x86_64.pkg.tar.xz
+sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
+```
 #
  - **Pelo Debian e derivados:**
  - Caso não tenha o mbrola no repositório.
