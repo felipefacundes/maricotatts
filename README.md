@@ -71,3 +71,6 @@ Está sob a égide da **licença**:
    
     cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
     
+### Ativar o onboar é necessário, para que programas que tenham o recurso de acessibilidade ###
+### Como o OKULAR, possam funcionar corretamente. Não deixe de ativar o onboard ###
+    
