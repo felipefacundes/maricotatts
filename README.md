@@ -26,13 +26,14 @@ sudo cp speechd.conf /etc/speech-dispatcher/
 
 - **As Dependências São:**
   - espeak-ng
+  - speech-dispatcher
   - orca
   - onboard
 
 #
 - **Instalação pelo ArchLinux**
 ```
-sudo pacman -S espeak-ng orca onboard
+sudo pacman -S espeak-ng speech-dispatcher orca onboard
 ```
 ```
 sudo pacman -U mbrola-3.0.1h-5-x86_64.pkg.tar.xz
@@ -66,7 +67,11 @@ pkill -9 -u $USER
 ```
 orca -s
 ```
-- mude para maricotatts
+- Na **guia: "Voz"**.
+- Configure, desse modo:
+  - Sistema de fala: **Speech Dispatcher**
+  - Sintetizador de fala: **maricotatts**
+  - Personagem: **Voz padrão para maricotatts (pt)**
 
 #
 ### Caso o onboard não esteja iniciando, junto com o sistema. Inclua no ~/.xinitrc
