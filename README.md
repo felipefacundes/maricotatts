@@ -11,9 +11,9 @@ Está sob a égide da **licença**:
     cd maricotatts
     
  - **Você poderá executar:**
- 
-    sh INSTALL.sh
-    
+``` 
+sh INSTALL.sh
+```
 ##### Ou, manualmente:
 
     sudo cp maricotatts-generic.conf /etc/speech-dispatcher/modules/
