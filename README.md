@@ -39,7 +39,7 @@ sudo pacman -U mbrola-3.0.1h-5-x86_64.pkg.tar.xz
 sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
 ```
 #
- - **Pelo Debian e derivados:**
+- **Pelo Debian e derivados:**
   - Caso não tenha o mbrola no repositório.
   - Deverá primeiro, converter os pacotes ".tar.xz" em ".deb"
   - Use o comando alien para converter
