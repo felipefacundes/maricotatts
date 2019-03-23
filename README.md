@@ -75,4 +75,4 @@ sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
     cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
     
 ### Ativar o onboard é necessário, para que programas que tenham o recurso de acessibilidade ###
-### Como o OKULAR, possam funcionar corretamente. Não deixe de ativar o onboard ###-->
+### Como o OKULAR, possam funcionar corretamente. Não deixe de ativar o onboard ###
