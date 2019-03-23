@@ -45,8 +45,10 @@ sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
  - **Renomeie** os arquivos ".pkg.tar.xz"
  - Para ".pkg.tar.gz"
 
-    fakeroot alien -d "nome".pkg.tar.gz
-    sudo dpkg -i *.deb
+```
+fakeroot alien -d "nome".pkg.tar.gz
+sudo dpkg -i *.deb
+```
 
 #### Fedora e derivados: o alien também gera pacotes ".rpm"
 
@@ -56,13 +58,13 @@ sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
 ### Finalizando Instalação
 
  - Feche tudo e mate a sessão
- 
-    pkill -9 -u $USER
-
+```
+pkill -9 -u $USER
+```
  - Inicie o X e digite no terminal
- 
-    orca -s
-
+```
+orca -s
+```
  - mude para maricotatts
 
 #
@@ -71,8 +73,9 @@ sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
     onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0 &
     
  - Ou
-   
-    cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
-    
+ 
+``` 
+cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
+```
 ### Ativar o onboard é necessário, para que programas que tenham o recurso de acessibilidade ###
 ### Como o OKULAR, possam funcionar corretamente. Não deixe de ativar o onboard ###
