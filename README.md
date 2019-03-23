@@ -1,37 +1,36 @@
 # Maricota TTS
 
-###### Mantenedor: Felipe Facundes
-###### E-Mail: felipe.facundes@gmail.com
-###### Telegram: https://t.me/comandos_linux
 Maricota TTS é um sintetizador de voz, em **português do Brasil**, que lê telas para portadores de deficiência visual. Transforma texto em áudio, permitindo que pessoas cegas ou com baixa visão tenham acesso ao conteúdo exibido na tela. Embora o principal público-alvo de sistemas de conversão texto-fala – como o Maricota TTS – seja formado por pessoas com deficiência visual, esse tipo de programa pode ser usado por pessoas com dislexia e outras dificuldades de leitura, pessoas com deficiência severa de fala, bem como por crianças pré-alfabetizadas. Além de ser uma ferramenta de tecnologia assistiva, sintetizadores de voz podem ter ainda aplicações pedagógicas e de entretenimento.
 Está sob a égide da **licença**:
 ### GPLv3
-
+> Mantenedor: Felipe Facundes
+> E-Mail: felipe.facundes@gmail.com
+> Telegram: https://t.me/comandos_linux
 #
-### Instalação
+### Instalação:
 
     git clone https://github.com/felipefacundes/maricotatts
     cd maricotatts
     
- - **Você poderá executar:**
+- **Você poderá executar:**
 ``` 
 sh INSTALL.sh
 ```
 ##### Ou, manualmente:
-
-    sudo cp maricotatts-generic.conf /etc/speech-dispatcher/modules/
-    sudo cp speechd.conf /etc/speech-dispatcher/
-    
+``` 
+sudo cp maricotatts-generic.conf /etc/speech-dispatcher/modules/
+sudo cp speechd.conf /etc/speech-dispatcher/
+```     
 #
 ### Instalação de Dependências:
 
- - **As Dependências São:**
+- **As Dependências São:**
   - espeak-ng
   - orca
   - onboard
 
-# 
- - **Instalação pelo ArchLinux**
+#
+- **Instalação pelo ArchLinux**
 ```
 sudo pacman -S espeak-ng orca onboard
 ```
@@ -54,29 +53,27 @@ sudo dpkg -i *.deb
 ```
 
 #### Fedora e derivados: o alien também gera pacotes ".rpm"
-
     fakeroot alien -r "nome".pkg.tar.gz
 
 #
 ### Finalizando Instalação
 
- - Feche tudo e mate a sessão
+- Feche tudo e mate a sessão
 ```
 pkill -9 -u $USER
 ```
- - Inicie o X e digite no terminal
+- Inicie o X e digite no terminal
 ```
 orca -s
 ```
- - mude para maricotatts
+- mude para maricotatts
 
 #
 ### Caso o onboard não esteja iniciando, junto com o sistema. Inclua no ~/.xinitrc
-
-    onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0 &
-    
- - Ou
- 
+``` 
+onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0 &
+```     
+- Ou
 ``` 
 cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
 ```
