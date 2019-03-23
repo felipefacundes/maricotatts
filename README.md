@@ -1,5 +1,8 @@
 # Maricota TTS
 
+###### Mantenedor: Felipe Facundes
+###### E-Mail: felipe.facundes@gmail.com
+###### Telegram: https://t.me/comandos_linux
 Maricota TTS é um sintetizador de voz, em **português do Brasil**, que lê telas para portadores de deficiência visual. Transforma texto em áudio, permitindo que pessoas cegas ou com baixa visão tenham acesso ao conteúdo exibido na tela. Embora o principal público-alvo de sistemas de conversão texto-fala – como o Maricota TTS – seja formado por pessoas com deficiência visual, esse tipo de programa pode ser usado por pessoas com dislexia e outras dificuldades de leitura, pessoas com deficiência severa de fala, bem como por crianças pré-alfabetizadas. Além de ser uma ferramenta de tecnologia assistiva, sintetizadores de voz podem ter ainda aplicações pedagógicas e de entretenimento.
 Está sob a égide da **licença**:
 ### GPLv3
@@ -23,9 +26,9 @@ sh INSTALL.sh
 ### Instalação de Dependências:
 
  - **As Dependências São:**
- - espeak-ng
- - orca
- - onboard
+  - espeak-ng
+  - orca
+  - onboard
 
 # 
  - **Instalação pelo ArchLinux**
@@ -38,12 +41,12 @@ sudo pacman -U mbrola-voices-br4-1-2-any.pkg.tar.xz
 ```
 #
  - **Pelo Debian e derivados:**
- - Caso não tenha o mbrola no repositório.
- - Deverá primeiro, converter os pacotes ".tar.xz" em ".deb"
- - Use o comando alien para converter
- - Após, é só instalar com o comando dpkg
- - **Renomeie** os arquivos ".pkg.tar.xz"
- - Para ".pkg.tar.gz"
+  - Caso não tenha o mbrola no repositório.
+  - Deverá primeiro, converter os pacotes ".tar.xz" em ".deb"
+  - Use o comando alien para converter
+  - Após, é só instalar com o comando dpkg
+  - **Renomeie** os arquivos ".pkg.tar.xz"
+  - Para ".pkg.tar.gz"
 
 ```
 fakeroot alien -d "nome".pkg.tar.gz
@@ -79,3 +82,5 @@ cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
 ```
 ### Ativar o onboard é necessário, para que programas que tenham o recurso de acessibilidade ###
 ### Como o OKULAR, possam funcionar corretamente. Não deixe de ativar o onboard ###
+###### Maricota é o apelido da minha Mãe, esta é uma homenagem a Dona Maria. ######
+#### Licence: GPLv3 ####
