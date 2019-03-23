@@ -4,8 +4,8 @@ Maricota TTS é um sintetizador de voz, em **português do Brasil**, que lê tel
 Está sob a égide da **licença**:
 ### GPLv3
 > Mantenedor: Felipe Facundes
-> E-Mail: felipe.facundes@gmail.com
-> Telegram: https://t.me/comandos_linux
+###### E-Mail: felipe.facundes@gmail.com
+###### Telegram: https://t.me/comandos_linux
 #
 ### Instalação:
 
