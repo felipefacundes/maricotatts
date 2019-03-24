@@ -13,7 +13,8 @@ Está sob a égide da **licença**:
     cd maricotatts
     
 - **Você poderá executar:**
-``` 
+```
+chmod +x INSTALL.sh
 sh INSTALL.sh
 ```
 ##### Ou, manualmente:
