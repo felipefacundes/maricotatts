@@ -90,4 +90,4 @@ cp /etc/xdg/autostart/onboard-autostart.desktop ~/.config/autostart/
 <br></br>
 
 ###### Maricota é o apelido da minha Mãe, esta é uma homenagem a Dona Maria. ######
-#### Licence: GPLv3 ####
+#### Licença: GPLv3 ####
